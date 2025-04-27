@@ -9,6 +9,10 @@
     "@babel/core": "^7.5.5",
     "@lwc/compiler": "^1.0.0",
     "@lwc/engine": "^1.0.0",
+    "@mdx-js/loader": "^3.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "@storybook/addon-docs": "^8.6.12",
+    "@storybook/addon-essentials": "^8.6.12",
     "@storybook/addon-knobs": "^5.1.11",
     "@storybook/addon-storysource": "^5.1.11",
     "@storybook/addon-viewport": "^5.2.6",
@@ -17,6 +21,9 @@
     "@types/node": "^12.0.1",
     "@types/webpack": "^4.4.31",
     "babel-loader": "^8.0.6",
+    "chromatic": "^11.28.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "typescript": "^3.4.5",
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.7"
@@ -29,6 +36,7 @@
   "scripts": {
     "start": "yarn storybook",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=chpt_97531c831929bf8"
   }
 }
